@@ -344,7 +344,7 @@ CFLAGS_MODULE   =
 AFLAGS_MODULE   =
 LDFLAGS_MODULE  =
 CFLAGS_KERNEL	= -O2 -mtune=cortex-a9 -ftree-vectorize -ffast-math -fsingle-precision-constant -mfpu=vfpv3
-AFLAGS_KERNEL	= -O3 -mtune=cortex-a9 -ftree-vectorize -ffast-math -fsingle-precision-constant -mfpu=vfpv3
+AFLAGS_KERNEL	= -O2 -mtune=cortex-a9 -ftree-vectorize -ffast-math -fsingle-precision-constant -mfpu=vfpv3
 CFLAGS_GCOV	= -fprofile-arcs -ftest-coverage
 
 
