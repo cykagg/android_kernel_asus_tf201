@@ -194,6 +194,7 @@ SUBARCH := arm
 # Note: Some architectures assign CROSS_COMPILE in their arch/*/Makefile
 export KBUILD_BUILDHOST := $(SUBARCH)
 ARCH		?= $(SUBARCH)
+CROSS_COMPILE	?= /home/di11igaf/android_kernel_asus_tf201/arm-2010.09/bin/arm-none-linux-gnueabi-
 CROSS_COMPILE	?= $(CONFIG_CROSS_COMPILE:"%"=%)
 
 # Architecture as present in compile.h
