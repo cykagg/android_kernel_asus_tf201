@@ -32,13 +32,8 @@ static bool tegra_dvfs_cpu_disabled;
 static bool tegra_dvfs_core_disabled;
 
 static const int cpu_millivolts[MAX_DVFS_FREQS] =
-<<<<<<< HEAD
-	 {800, 825, 850, 875, 900, 912, 925, 950, 975, 1000, 1025, 1050, 1075, 1100, 1125, 1150, 1200, 1237, 1250, 1300};
-	
-=======
 	{800, 825, 850, 875, 900, 912, 925, 950, 975, 1000, 1025, 1050, 1075, 1100, 1125, 1150, 1200, 1275, 1300, 1350};
 
->>>>>>> 56ca63c... Overclock frequency/voltage changes:
 static const int core_millivolts[MAX_DVFS_FREQS] =
 	{1000, 1050, 1100, 1150, 1200, 1250, 1300, 1350, 1400};
 
